@@ -1,0 +1,113 @@
+*{
+    display: grid;
+    justify-content: center;
+}
+.grid{ 
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    max-height: 1800px;
+    padding: 20px;
+    border: 1px solid black ;
+    grid-template-columns: minmax(200px , auto);
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.menu {
+    list-style-type: none ;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: -10px;
+
+    }
+.itemMenu a{
+    width: 148px;
+    height: 30px;
+    padding: 5px 5px;
+    font: 19px Georgia;
+    text-decoration: none;
+    background-color: rgb(37, 36, 35);
+    color: snow;
+    margin:0px;
+    list-style-position:inside;
+    display: grid;
+  
+}
+
+.itemMenu a:hover {
+    text-decoration: none; 
+    color: #fff;   
+    background-color: rgb(85, 78, 72);
+}
+
+.img  {
+    display: flex;
+    justify-content: center;
+    width: 1110px;
+    margin-left: 15px;
+}
+.paragraf{
+     
+    margin-left: 20px;
+    grid-gap: 20px;
+    
+}
+@media (min-width: 640px) {
+  .paragraf {
+      grid-template-columns: 4fr 2fr;  
+  }
+}
+h1{
+    display: flex;
+    justify-content:flex-start;
+    color: rgb(192, 135, 59);
+    
+}
+
+.conteiner-right {
+    background-color: lightgrey;
+    display: grid;
+    margin: 20px;
+    font: 16px Georgia;
+    margin-left: 15px;
+    grid-gap: 10px;
+    height: 300px;
+    padding:1px 5px 9px 5px;
+    margin-right:auto ;   
+}
+h2{
+    display: flex;
+    justify-content:flex-start;
+    background-color: cadetblue;
+    height: 40px;
+    width: 330px;
+    padding:16px 10px 10px 10px;
+    margin: 5px;
+    
+}
+.conteiner-right-item {
+    padding-left: 10px ;
+    color: rgb(110,117,14);
+}
+.conteiner-right-item-pl-10{
+    padding-left: 10px ;
+}
+footer {
+    width: 1105px;
+    height: 100px;
+    background-color: rgb(212, 218, 132);
+    justify-content: center;
+    margin-left: 15px;
+}
+.footer-paragraf{
+    padding-top: 20px;
+    color: rgb(110,117,14);
+}
+.color-text{
+    color: rgb(110,117,14) ;
+}
