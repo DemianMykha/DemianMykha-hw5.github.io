@@ -1,3 +1,4 @@
+/*body ()
 *{
     display: grid;
     justify-content: center;
@@ -57,7 +58,7 @@
     grid-gap: 20px;
     
 }
-@media (min-width: 640px) {
+ (min-width: 640px) {
   .paragraf {
       grid-template-columns: 4fr 2fr;  
   }
@@ -80,7 +81,7 @@ h1{
     padding:1px 5px 9px 5px;
     margin-right:auto ;   
 }
-h2{
+h4{
     display: flex;
     justify-content:flex-start;
     background-color: cadetblue;
@@ -110,4 +111,62 @@ footer {
 }
 .color-text{
     color: rgb(110,117,14) ;
+}*/
+body {
+    background-color: lightgrey;
+}
+.container {
+    
+    background-color: white;
+}
+.navbar {
+    background-color: rgb(67, 87, 122);
+    width: 100%;
+    
+}
+.navbar a{
+    width: 200px;
+}
+
+
+.card {
+   border: 0px;
+}
+a{
+    
+    color:  rgb(163, 168, 88);
+}
+.navbar a:hover{
+    background-color: rgb(97, 124, 170);
+    
+}
+h4{
+    display: flex;
+    
+    background-color: cadetblue;
+    height: 40px;
+    padding-left: 20px;
+    margin: 5px;
+    
+}
+.footer {
+     height: 100px;
+     background-color: rgb(213, 219, 121);
+    
+}
+.row-left{
+    background-color: lightgrey;
+}
+.list-group-item{
+    background-color: lightgrey;
+    border: 0px;
+}
+.footer{
+    padding-top: 35px;
+    color: rgb(110,117,14);
+    display: grid;
+    justify-content: center;
+}
+.text {
+    margin-left: 130px;
 }
